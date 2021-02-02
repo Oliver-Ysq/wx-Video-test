@@ -160,7 +160,7 @@ function App() {
       </Form.Item>
 
       <Form.Item name="type" label="识别模型" rules={[{required: true, message: '请选择模型'}]}>
-        <Radio.Group>
+        <Radio.Group defaultValue="0">
           <Radio value="0">多模态融合</Radio>
           <Radio value="1">transformer</Radio>
         </Radio.Group>
@@ -203,7 +203,7 @@ function App() {
       </Form.Item>
 
       <Form.Item name="method" label="识别模型" rules={[{required: true, message: '请输入视频标题'}]}>
-        <Radio.Group>
+        <Radio.Group defaultValue="0">
           <Radio value="0">多模态融合</Radio>
           <Radio value="1">transformer</Radio>
         </Radio.Group>
