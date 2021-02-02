@@ -1,0 +1,11 @@
+.my-span {
+    display: inline-flex;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    justify-content: center;
+    align-content: center;
+    background: #eee;
+    margin-right: 12px;
+}

@@ -1,38 +1,52 @@
+@import '~antd/dist/antd.css';
+
 .App {
-  text-align: center;
+    text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.layout {
+    min-height: 100vh;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.header {
+    padding-left: 120px;
+    padding-right: 120px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.content {
+    background: rgb(246, 249, 250);
+    overflow: auto;
+    padding: 72px 120px;
+    display: flex;
+    flex-direction: column;
 }
 
-.App-link {
-  color: #61dafb;
+.left {
+    background: white;
+    padding: 20px 32px;
+    border-radius: 12px;
+    box-shadow: 2px 2px 12px 4px rgba(0, 0, 0, .1);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.footer {
+    text-align: center;
 }
+
+.ant-form-item-explain-error {
+    font-size: 12px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+#basic_radio-group {
+    width: 100% !important;
+}
+
+.icon {
+    height: 36px;
+}
+
+.ant-tabs-nav {
+    margin-bottom: 24px !important;
+}
+
